@@ -1,0 +1,15 @@
+current directory: /Users/bsys/Desktop/matsumura/hackathon/kyukyokutaiken/ttp_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/bsys/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20190928-65071-wt6j2t.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bsys/Desktop/matsumura/hackathon/kyukyokutaiken/ttp_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/bsys/Desktop/matsumura/hackathon/kyukyokutaiken/ttp_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/bsys/Desktop/matsumura/hackathon/kyukyokutaiken/ttp_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190928-65071-15og7ql/skiptrace/internal

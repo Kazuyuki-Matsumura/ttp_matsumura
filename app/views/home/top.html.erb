@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header>
+    <ul>
+        <li><%= image_tag('/logo.png' , :height => '70')  %></li>
+        <div class="header-text">
+            <li><%= link_to "予約する", "/" %></li>
+            <li><%= link_to "ホテル一覧", "/" %></li>
+        </div>
+    </ul>
+    </header>
+    <div class="container">
+        <div class="contents">
+            <p>日頃疲れているあなたに<br>究極の睡眠を提供</p>
+            <%= button_to "早速体験する", {controller: 'home', action: 'top'}, {method: :get, class: "items-link-btn"} %>
+        </div>
+    </div>
+    <footer>
+        <p>@2019 ttp</p>
+    </footer>
+  </body>
+</html>
